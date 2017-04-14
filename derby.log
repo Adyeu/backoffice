@@ -29,3 +29,8 @@ os.arch=amd64
 os.version=6.3
 derby.system.home=U:\Bureau\Semestre 8\LO54\LO54_Projet_IceFaces
 Chargeur de classe de la base de données démarré - derby.database.classpath = ''
+----------------------------------------------------------------
+Fri Mar 31 18:21:24 CEST 2017 : fermeture du moteur Derby
+----------------------------------------------------------------
+Fri Mar 31 18:21:25 CEST 2017:
+Fermeture de l'instance 560740aa-015b-2503-7035-000013dda3a0 sur le répertoire de base de données U:\Bureau\Semestre 8\LO54\LO54_Projet_IceFaces\PROJECT_DATA avec le chargeur de classe sun.misc.Launcher$AppClassLoader@1d44bcfa 
