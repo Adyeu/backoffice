@@ -1,7 +1,7 @@
 
 import java.io.Serializable;
 import org.hibernate.Session;
-
+import fr.utbm.entity.Course;
 
 
 /*
@@ -19,6 +19,9 @@ public class App0 implements Serializable{
     public static void main(String[] args)  {
     
     Session session = HibernateUtil.getSessionFactory().openSession();
+    Course c= new Course();
+    c.setCode("LO54");
+    c.setTitle("J2EE");
     
-}
+    }
 }

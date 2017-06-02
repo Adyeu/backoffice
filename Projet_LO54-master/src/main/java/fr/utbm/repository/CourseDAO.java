@@ -4,9 +4,16 @@
  * and open the template in the editor.
  */
 package fr.utbm.repository;
+import fr.utbm.entity.Course;
 
 public class CourseDAO {
     
-    
-    
+    public void inscrire(Course c){
+        
+        c.getCode();
+        c.getTitle();
+        c.getClass();
+        
+    }
+   
 }
