@@ -10,12 +10,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 /**
  *
  * @author fskaff
  */
 @Entity
+@Table(name="COURSE_SESSION")
 public class CourseSession implements Serializable {
     
     @Id

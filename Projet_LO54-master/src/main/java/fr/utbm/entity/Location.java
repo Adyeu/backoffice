@@ -7,12 +7,14 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  *
  * @author fskaff
  */
 @Entity
+@Table(name="LOCATION")
 public class Location implements Serializable {
     
     @Id
